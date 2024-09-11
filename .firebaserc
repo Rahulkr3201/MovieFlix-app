@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "movieflix-c6d1b",
+    "staging": "movieflix-c6d1b"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
