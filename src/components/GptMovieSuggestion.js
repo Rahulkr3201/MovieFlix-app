@@ -14,7 +14,7 @@ const GptMovieSuggestion = () => {
     );
   }
   return (
-    <div className="bg-black flex overflow-x-scroll mt-2 mx-56">
+    <div className="bg-black flex overflow-x-scroll mt-0 md:mt-2 mx-0 md:mx-56">
       {searchedMovie && (
         <div className="flex">
           {searchedMovie.map((movie) => (

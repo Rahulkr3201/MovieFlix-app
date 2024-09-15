@@ -31,16 +31,16 @@ const GptSearchBar = () => {
   };
 
   return (
-    <div className="pt-[10%]  h-[20%] ">
+    <div className="pt-[10%]  h-[20%]  ">
       <form onSubmit={(e) => e.preventDefault()}>
         <input
           ref={searchText}
           type="text"
-          className="p-4 m-4 rounded-md ml-96 w-[30%] "
+          className="p-4 m-2 md:m-4 rounded-md ml-0 md:ml-96 w-[60%] md:w-[30%] mt-24 md:"
           placeholder={lang[langKey].GptSearchplaceholder}
         />
         <button
-          className="w-[8%]  h-12 bg-red-600 ml-6 text-white rounded md
+          className="w-[20%] md:w-[8%]  h-12 bg-red-600 ml-6 text-white rounded md
         "
           onClick={handleGptSearchClick}
         >
